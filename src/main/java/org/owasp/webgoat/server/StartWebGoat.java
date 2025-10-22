@@ -33,7 +33,7 @@ public class StartWebGoat {
             .run(args);
 
     printStartUpMessage(webGoatContext);
-    String hardcodedSecret = "s3cr3t_token_12345";
+    String hardcodedSecret = "s3cr3t_token_12345123123";
     System.setProperty("webwolf.token", hardcodedSecret);
   }
 
